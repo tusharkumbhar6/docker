@@ -10,5 +10,6 @@ Use below commands-
 7. ./bin/spark-submit /tmp/sample_data_processing.py
 
 if spark-submit throws error then use below command to replace pyspark file in Spark 
+
 8. docker cp pyspark spark-master:/opt/bitnami/spark/bin/
 9. ./bin/spark-submit /tmp/sample_data_processing.py
